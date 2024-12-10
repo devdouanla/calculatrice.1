@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.button,.buttadd, .buttsupp , .scient{
+    background-color: aqua;
+ cursor: pointer;
+ position: relative;
+ box-shadow: 0 6px #9DFFF9;
+ cursor: pointer;
+border: none;
+font-size:clamp(3px, 4vw ,90px);
+color: #FFFFFF;
+border-radius: 15px;
+margin: 3px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+button{
+    border: none;
+}
+
+
+.button:active,.buttadd:active, .buttsupp:active, .scient:active{
+    box-shadow: 0 0px #9DFFF9;
+    top: 6px;
+}
+.colors{
+
+    background-color:rgb(40, 146, 215);
+   
+}
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+ background-color: hsl(230, 17%, 14%) ;
+    color: aliceblue;
+    border: none;
+    flex-direction: column;
+   
+    box-shadow: 3px 3px    rgb(38, 0, 255);
+}
+.present{
+    font-size:clamp(10px,2vw,100px);
+    text-align: center;
+    border: 1px solid rgb(0, 51, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10VH;
+    width: 95vw;
+}
+
+.affichage{
+    border: 1px solid rgb(36, 77, 202);
+    background-color:hsl(230, 17%, 14%);
+color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 3px 3px    rgb(36, 77, 202);
+
+
+
+}
+
+.compoment{
+  
+    display: grid;
+grid-gap: 10px;
+  
+   
+}
+ .l2, .l3 {
+grid-template-columns: 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr ;
+
+}
+.l1 , .l4{
+    grid-template-columns:0.3fr 0.3fr 0.3fr 0.6fr;
+ 
+}   
+.ligne1{
+   
+    display: grid;
+ 
+    text-align: center;
+    
+
+}
+
+
+#corps{
+    border: none;
+    width: 95vw;
+    height: 75vh;
+ border: 0.5px solid rgb(36, 77, 202);
+    display: grid;
+    grid-template-rows: 0.3fr 2fr ;
+    grid-gap: 10px;
+    box-shadow: 5px 9px  6px 1px  rgb(36, 77, 202);
+   
+
+
+}
+.affichagereponse{
+    position: relative;
+   
+    display: flex;
+align-items: center;
+h1{
+    position:absolute;
+    right:10px;
+    font-size:clamp(3px, 4vw ,30px);
+}
+
+
+}
+.affichagesaisie{
+    position: relative;
+   
+    display: flex;
+align-items: center;
+h1{
+    position:absolute;
+    left:10px;
+    font-size:clamp(3px, 4vw ,30px);
+}
+
+
+}
