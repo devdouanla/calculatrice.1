@@ -5,7 +5,7 @@
     box-sizing: border-box;
     overflow:hidden;
 }
-.button,.buttadd, .buttsupp , .scient{
+.button,.buttadd, .buttsupp , .scient, .mode{
     background-color: aqua;
  cursor: pointer;
  position: relative;
@@ -27,7 +27,7 @@ button{
 }
 
 
-.button:active,.buttadd:active, .buttsupp:active, .scient:active{
+.button:active,.buttadd:active, .buttsupp:active, .scient:active ,.mode:active{
     box-shadow: 0 0px #9DFFF9;
     top: 6px;
 }
@@ -56,7 +56,7 @@ body{
     border: 1px solid rgb(0, 51, 255);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 10VH;
     width: 95vw;
 }
@@ -136,4 +136,7 @@ h1{
 }
 
 
+}
+.enleve{
+    display: none;
 }
