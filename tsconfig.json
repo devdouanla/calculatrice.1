@@ -1,13 +1,14 @@
-
-
 {
-    "compilerOptions":{
-      "module": "commonjs",
-      "target": "ES5",
-      "outDir": "ts-built",
-      "rootDir": "script",
-
-
-
-    }
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./script",
+    /*"sourceMap": true,*/
+    "outDir": "./ts-built",
+    "esModuleInterop": true,
+    /*
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,*/
+  }
 }
